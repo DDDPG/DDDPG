@@ -1,8 +1,8 @@
 ## Hi, I'm Kangdi Wang (Lertoon) 👋
 
-**Independent Audio AI Researcher & Builder**
+**Audio AI Researcher & Engineer · Research Intern at Qwen Omni**
 
-I work on neural audio representations, generative music, and multimodal audio — mostly from a signal-processing and mixing background. Before research I spent three years as a mix engineer on stems, live streams, and REAPER tooling; that production side still sits next to the ML work.
+I work on perceptual audio representations, generative music, and agentic audio understanding. My background in signal processing, stem mixing, and live production shapes how I build and evaluate audio models. Alongside research, I develop open-source tools for REAPER workflows and audio inspection in VS Code.
 
 🌐 **Personal site → [dddpg.github.io](https://dddpg.github.io)**
 
@@ -10,25 +10,30 @@ I work on neural audio representations, generative music, and multimodal audio �
 
 ### 🔭 Now
 
-- Perceptually grounded neural codecs & complex-spectral representations
-- Generative music modeling, tokenization, and high-fidelity audio synthesis
-- Open research & tooling through **[εar-LAB](https://github.com/Eps-Acoustic-Revolution-Lab)**
-- Audio agents, DAW bridges, and listen-first dev tools (REAPER / VS Code)
+- Perceptually grounded neural audio representations and frequency-aware, complex-spectral modeling
+- Music generation, tokenization, and high-fidelity audio synthesis
+- Agentic audio understanding and REAPER-based automatic arrangement, mixing, and podcast editing
+- Open research and audio tools through **[εar-LAB](https://github.com/Eps-Acoustic-Revolution-Lab)** and my personal projects
 
 ### 🎵 Research
 
-Neural Audio Representations · Music Generation · Multimodal Audio
+Neural Audio Representations · Music Generation · Multimodal Audio · Audio Agents
 
-Recent work includes **εar-VAE** (INTERSPEECH 2026), **ear-VAE2**, **DUO-TOK**, **Qwen-Music**, and **CineDub** (ACM MM 2026, co-first author).
+- **[εar-VAE](https://arxiv.org/abs/2509.14912)** — First author · INTERSPEECH 2026. Perceptually driven high-fidelity music reconstruction.
+- **[ear-VAE2](https://arxiv.org/abs/2608.19843)** — First author · arXiv. Frequency-aware autoencoding for high-fidelity music reconstruction.
+- **[Qwen-Music](https://arxiv.org/abs/2607.11699)** — **Core Contributor** and second-listed author. Audio decoder development, listening evaluation, and audio-quality data curation.
+- **[CineDub](https://arxiv.org/abs/2608.15734)** — Co-first author · ACM Multimedia 2026. Multi-speaker video dubbing with coherent sound effects.
+- **[DuoTok](https://arxiv.org/abs/2511.20224)** — Co-author · ACM Multimedia 2026. Source-aware vocal–accompaniment music tokenization.
+- **[Qwen3.8-Omni: Towards Native Omni-Modal Agents](https://arxiv.org/abs/2609.25611)** — Contributor. During my Qwen Omni internship, I contributed to Qwen3.8-Omni-Flash training, focusing on agentic audio understanding and REAPER-based tasks for automatic arrangement, mixing, and podcast editing.
 
 ### 🛠 Open Source
 
 | Project | What |
 | --- | --- |
-| [EAR-Audio-Preview](https://github.com/Eps-Acoustic-Revolution-Lab/EAR-Audio-Preview) | 🎧 VS Code audio waveform / spectrogram preview |
-| [ear-eq](https://github.com/Eps-Acoustic-Revolution-Lab/ear-eq) | 🎛 Parametric EQ UI kit for audio frontends |
-| [ReaperDoc](https://github.com/DDDPG/ReaperDoc) | 📄 Interactive REAPER `.RPP` spec & parser reference |
-| [Reathon](https://github.com/DDDPG) | 🐍 REAPER ↔ Python bridge for audio agents *(in dev)* |
+| [Rea-Cli](https://github.com/DDDPG/Rea-Cli) | Python library, CLI, and agent skill for REAPER project editing, Lua/ReaScript execution, and project/audio verification |
+| [EAR-Audio-Preview](https://github.com/Eps-Acoustic-Revolution-Lab/EAR-Audio-Preview) | VS Code audio inspection with waveform, spectrogram, phase, and loudness views |
+| [ReaperDoc](https://github.com/DDDPG/ReaperDoc) | Interactive REAPER `.RPP` specification and parser reference |
+| [ear-eq](https://github.com/Eps-Acoustic-Revolution-Lab/ear-eq) | Reusable parametric EQ curves, knobs, and interaction components for audio interfaces |
 
 ### 📫 Elsewhere
 
@@ -39,5 +44,4 @@ Recent work includes **εar-VAE** (INTERSPEECH 2026), **ear-VAE2**, **DUO-TOK**,
 
 ---
 
-
-If you have Music mixing & mastering session to processs, consider me please :-) 
+Have a music mixing or mastering project? Feel free to [get in touch](mailto:wangkangdi21@gmail.com) :-)
